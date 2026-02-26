@@ -1,0 +1,61 @@
+incident_id,date,state,city_or_county,address,n_killed,n_injured,incident_url,source_url,incident_characteristics,latitude,longitude,congressional_district,gun_stolen,gun_type,incident_type,age_group_participant,gender_participant,participant_status,participant_type
+1,2021-01-03,Texas,Houston,1200 Main St,0,2,http://example.com/1,http://src.com/1,Assault | Shot,29.76,-95.37,18,Unknown,9mm,Shooting,Adult 18+,Male,Injured | Unharmed,Victim | Subject-Suspect
+2,2021-01-05,California,Los Angeles,500 Sunset Blvd,1,0,http://example.com/2,http://src.com/2,Murder/Suicide,34.05,-118.24,33,No,Handgun,Shooting,Adult 18+,Male,Killed,Subject-Suspect
+3,2021-01-07,Florida,Miami,300 Ocean Dr,0,1,http://example.com/3,http://src.com/3,Drive-by,25.79,-80.13,27,Yes,Rifle,Shooting,Teen 12-17,Male,Injured,Victim
+4,2021-01-10,New York,New York City,42nd St & Broadway,2,3,http://example.com/4,http://src.com/4,Gang involvement | Shot,40.71,-74.01,10,Unknown,Handgun,Shooting,Adult 18+,Male,Killed | Injured,Victim | Subject-Suspect
+5,2021-01-12,Illinois,Chicago,South Side Ave,1,2,http://example.com/5,http://src.com/5,Drive-by | Gang involvement,41.85,-87.65,7,Yes,9mm,Shooting,Adult 18+,Male,Killed | Injured,Victim
+6,2021-01-14,Georgia,Atlanta,Peachtree St,0,0,http://example.com/6,http://src.com/6,Accidental Shooting,33.75,-84.39,5,No,Shotgun,Accidental,Child 0-11,Male,Unharmed,Victim
+7,2021-01-15,Texas,Dallas,Commerce St,1,1,http://example.com/7,http://src.com/7,Robbery | Armed robbery,32.78,-96.80,30,Yes,Handgun,Robbery,Adult 18+,Female,Killed | Injured,Victim | Subject-Suspect
+8,2021-01-18,Ohio,Columbus,High St,0,2,http://example.com/8,http://src.com/8,Shot - Dead (murder/accidental/suicide),39.96,-82.99,3,Unknown,Rifle,Shooting,Adult 18+,Male,Injured,Victim
+9,2021-01-20,Pennsylvania,Philadelphia,Broad St,2,0,http://example.com/9,http://src.com/9,Murder/Suicide | Domestic Violence,39.95,-75.16,1,No,Handgun,Domestic,Adult 18+,Male,Killed,Subject-Suspect
+10,2021-01-22,Arizona,Phoenix,Central Ave,0,1,http://example.com/10,http://src.com/10,Assault | Carjacking,33.45,-112.07,7,Yes,Handgun,Robbery,Teen 12-17,Male,Injured,Victim
+11,2021-02-01,Texas,San Antonio,River Walk,0,3,http://example.com/11,http://src.com/11,Drive-by | Gang involvement,29.42,-98.49,20,Unknown,9mm,Shooting,Adult 18+,Male,Injured,Victim
+12,2021-02-03,California,San Francisco,Market St,1,0,http://example.com/12,http://src.com/12,Suicide^,37.77,-122.42,12,No,Handgun,Suicide,Adult 18+,Male,Killed,Subject-Suspect
+13,2021-02-05,Florida,Orlando,International Dr,0,2,http://example.com/13,http://src.com/13,Assault | Domestic Violence,28.54,-81.38,8,Yes,Shotgun,Domestic,Adult 18+,Female,Injured,Victim
+14,2021-02-08,New York,Buffalo,Main St,1,1,http://example.com/14,http://src.com/14,Robbery | Armed robbery,42.88,-78.87,26,Unknown,Rifle,Robbery,Adult 18+,Male,Killed | Injured,Victim | Subject-Suspect
+15,2021-02-10,Illinois,Springfield,Capitol Ave,0,0,http://example.com/15,http://src.com/15,Accidental Shooting,39.78,-89.65,13,No,9mm,Accidental,Adult 18+,Male,Unharmed,Victim
+16,2021-02-12,North Carolina,Charlotte,Trade St,2,2,http://example.com/16,http://src.com/16,Gang involvement | Drive-by,35.22,-80.84,9,Yes,Handgun,Shooting,Adult 18+,Male,Killed | Injured,Victim | Subject-Suspect
+17,2021-02-14,Michigan,Detroit,Woodward Ave,1,0,http://example.com/17,http://src.com/17,Murder/Suicide | Domestic Violence,42.33,-83.05,13,No,Handgun,Domestic,Adult 18+,Male,Killed,Subject-Suspect
+18,2021-02-17,Washington,Seattle,Pike St,0,1,http://example.com/18,http://src.com/18,Assault | Carjacking,47.61,-122.33,7,Unknown,Rifle,Robbery,Teen 12-17,Male,Injured,Victim
+19,2021-02-19,Colorado,Denver,Colfax Ave,1,2,http://example.com/19,http://src.com/19,Shot - Dead (murder/accidental/suicide),39.74,-104.98,1,Yes,9mm,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+20,2021-02-21,Tennessee,Nashville,Broadway,0,1,http://example.com/20,http://src.com/20,Assault | Shot,36.17,-86.78,5,No,Handgun,Shooting,Adult 18+,Female,Injured,Victim
+21,2021-03-02,Texas,Austin,Congress Ave,0,2,http://example.com/21,http://src.com/21,Drive-by,30.27,-97.74,10,Yes,9mm,Shooting,Teen 12-17,Male,Injured,Victim
+22,2021-03-04,California,San Diego,Harbor Dr,1,1,http://example.com/22,http://src.com/22,Gang involvement | Armed robbery,32.72,-117.16,52,Unknown,Handgun,Robbery,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+23,2021-03-06,Florida,Tampa,Ybor City,0,3,http://example.com/23,http://src.com/23,Assault | Domestic Violence,27.95,-82.46,14,No,Shotgun,Domestic,Adult 18+,Female,Injured,Victim
+24,2021-03-09,New York,Rochester,East Ave,2,0,http://example.com/24,http://src.com/24,Murder/Suicide,43.16,-77.61,25,Yes,Handgun,Shooting,Adult 18+,Male,Killed,Subject-Suspect
+25,2021-03-11,Illinois,Rockford,State St,0,1,http://example.com/25,http://src.com/25,Accidental Shooting,42.27,-89.09,16,No,Rifle,Accidental,Child 0-11,Male,Injured,Victim
+26,2021-03-13,Georgia,Savannah,River St,1,2,http://example.com/26,http://src.com/26,Gang involvement | Drive-by,32.08,-81.09,1,Unknown,9mm,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+27,2021-03-15,Ohio,Cleveland,Euclid Ave,0,2,http://example.com/27,http://src.com/27,Assault | Shot,41.50,-81.69,11,Yes,Handgun,Shooting,Adult 18+,Male,Injured,Victim
+28,2021-03-17,Pennsylvania,Pittsburgh,Penn Ave,1,0,http://example.com/28,http://src.com/28,Suicide^,40.44,-79.99,14,No,Handgun,Suicide,Adult 18+,Male,Killed,Subject-Suspect
+29,2021-03-20,Arizona,Tucson,4th Ave,0,1,http://example.com/29,http://src.com/29,Robbery | Armed robbery,32.22,-110.97,2,Unknown,Rifle,Robbery,Teen 12-17,Male,Injured,Victim
+30,2021-03-22,Michigan,Grand Rapids,Monroe Ave,2,1,http://example.com/30,http://src.com/30,Gang involvement | Drive-by,42.96,-85.67,3,Yes,Handgun,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+31,2021-04-01,Texas,Houston,Westheimer Rd,0,2,http://example.com/31,http://src.com/31,Assault | Drive-by,29.74,-95.46,7,Unknown,9mm,Shooting,Adult 18+,Male,Injured,Victim
+32,2021-04-03,California,Oakland,Broadway,1,1,http://example.com/32,http://src.com/32,Gang involvement | Murder/Suicide,37.80,-122.27,13,No,Handgun,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+33,2021-04-06,Florida,Jacksonville,Beach Blvd,0,1,http://example.com/33,http://src.com/33,Assault | Carjacking,30.33,-81.66,4,Yes,Shotgun,Robbery,Teen 12-17,Male,Injured,Victim
+34,2021-04-08,New York,New York City,5th Ave,3,2,http://example.com/34,http://src.com/34,Gang involvement | Drive-by,40.75,-73.99,12,Unknown,Handgun,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+35,2021-04-10,Illinois,Chicago,North Side,2,3,http://example.com/35,http://src.com/35,Drive-by | Gang involvement,41.90,-87.63,5,Yes,Rifle,Shooting,Adult 18+,Male,Killed | Injured,Victim | Subject-Suspect
+36,2021-04-12,,Atlanta,Peachtree Rd,0,1,http://example.com/36,http://src.com/36,Accidental Shooting,33.78,-84.40,6,No,Handgun,Accidental,Child 0-11,Female,Injured,Victim
+37,2021-04-15,Texas,Dallas,Elm St,1,0,http://example.com/37,http://src.com/37,Murder/Suicide | Domestic Violence,32.78,-96.81,32,Unknown,9mm,Domestic,Adult 18+,Female,Killed,Subject-Suspect
+38,2021-04-17,North Carolina,Raleigh,Fayetteville St,0,2,http://example.com/38,http://src.com/38,Assault | Shot,35.78,-78.64,4,Yes,Handgun,Shooting,Adult 18+,Male,Injured,Victim
+39,2021-04-20,Virginia,Virginia Beach,Atlantic Ave,1,1,http://example.com/39,http://src.com/39,Gang involvement | Robbery,36.85,-75.98,2,No,Rifle,Robbery,Teen 12-17,Male,Killed | Injured,Subject-Suspect | Victim
+40,2021-04-22,Washington,Tacoma,Pacific Ave,0,3,http://example.com/40,http://src.com/40,Drive-by | Gang involvement,47.25,-122.44,6,Unknown,Handgun,Shooting,Adult 18+,Male,Injured,Victim
+41,2021-05-01,Missouri,St. Louis,Market St,2,1,http://example.com/41,http://src.com/41,Gang involvement | Drive-by,38.63,-90.20,1,Yes,9mm,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+42,2021-05-03,Maryland,Baltimore,Inner Harbor,1,0,http://example.com/42,http://src.com/42,Murder/Suicide,39.29,-76.61,3,No,Handgun,Shooting,Adult 18+,Male,Killed,Subject-Suspect
+43,2021-05-05,Indiana,Indianapolis,Monument Circle,0,2,http://example.com/43,http://src.com/43,Assault | Shot,39.77,-86.16,7,Unknown,Shotgun,Shooting,Adult 18+,Male,Injured,Victim
+44,2021-05-08,Nevada,Las Vegas,Las Vegas Blvd,1,3,http://example.com/44,http://src.com/44,Gang involvement | Drive-by,36.17,-115.14,1,Yes,Handgun,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+45,2021-05-10,Wisconsin,Milwaukee,Wisconsin Ave,0,1,http://example.com/45,http://src.com/45,Accidental Shooting,43.04,-87.91,4,No,9mm,Accidental,Teen 12-17,Male,Injured,Victim
+46,2021-05-12,Louisiana,New Orleans,Bourbon St,2,2,http://example.com/46,http://src.com/46,Gang involvement | Drive-by,29.96,-90.06,2,Unknown,Rifle,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+47,2021-05-14,Kentucky,Louisville,Broadway,1,0,http://example.com/47,http://src.com/47,Domestic Violence | Murder/Suicide,38.25,-85.76,3,Yes,Handgun,Domestic,Adult 18+,Male,Killed,Subject-Suspect
+48,2021-05-17,Oregon,Portland,Burnside St,0,2,http://example.com/48,http://src.com/48,Assault | Carjacking,45.52,-122.68,3,No,Handgun,Robbery,Teen 12-17,Male,Injured,Victim
+49,2021-05-19,Oklahoma,Oklahoma City,Reno Ave,1,1,http://example.com/49,http://src.com/49,Gang involvement | Shot,35.47,-97.52,5,Unknown,9mm,Shooting,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+50,2021-05-21,Connecticut,New Haven,Chapel St,0,1,http://example.com/50,http://src.com/50,Assault | Shot,41.31,-72.92,3,Yes,Handgun,Shooting,Adult 18+,Male,Injured,Victim
+51,2021-06-02,Texas,Houston,Katy Fwy,2,2,http://example.com/51,http://src.com/51,Drive-by | Gang involvement,29.78,-95.55,7,Unknown,Rifle,Shooting,Adult 18+,Male,Killed | Injured,Victim | Subject-Suspect
+52,2021-06-04,California,Fresno,Blackstone Ave,1,0,http://example.com/52,http://src.com/52,Murder/Suicide | Domestic Violence,36.74,-119.79,16,No,Handgun,Domestic,Adult 18+,Male,Killed,Subject-Suspect
+53,2021-06-06,Florida,St. Petersburg,Central Ave,0,3,http://example.com/53,http://src.com/53,Assault | Gang involvement,27.77,-82.64,13,Yes,9mm,Shooting,Adult 18+,Male,Injured,Victim
+54,2021-06-09,New York,Yonkers,Central Park Ave,1,2,http://example.com/54,http://src.com/54,Gang involvement | Drive-by,40.93,-73.90,16,Unknown,Handgun,Shooting,Teen 12-17,Male,Killed | Injured,Subject-Suspect | Victim
+55,2021-06-11,Illinois,Peoria,Main St,0,1,http://example.com/55,http://src.com/55,Accidental Shooting,40.69,-89.59,18,No,Shotgun,Accidental,Child 0-11,Male,Injured,Victim
+56,2021-06-13,Georgia,Columbus,Broadway,2,0,http://example.com/56,http://src.com/56,Gang involvement | Murder/Suicide,32.46,-84.99,2,Yes,Handgun,Shooting,Adult 18+,Male,Killed,Subject-Suspect
+57,2021-06-15,,Memphis,Beale St,0,2,http://example.com/57,http://src.com/57,Assault | Shot,35.14,-90.05,9,Unknown,9mm,Shooting,Adult 18+,Male,Injured,Victim
+58,2021-06-17,Pennsylvania,Allentown,Hamilton St,1,1,http://example.com/58,http://src.com/58,Robbery | Armed robbery,40.60,-75.47,7,No,Rifle,Robbery,Adult 18+,Male,Killed | Injured,Subject-Suspect | Victim
+59,2021-06-20,Arizona,Mesa,Main St,0,2,http://example.com/59,http://src.com/59,Drive-by | Gang involvement,33.42,-111.83,5,Yes,Handgun,Shooting,Teen 12-17,Male,Injured,Victim
+60,2021-06-22,Michigan,Lansing,Michigan Ave,1,0,http://example.com/60,http://src.com/60,Suicide^,42.73,-84.55,8,No,Handgun,Suicide,Adult 18+,Male,Killed,Subject-Suspect
